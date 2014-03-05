@@ -10,12 +10,19 @@ what is FSM, please see Wikipedia http://en.wikipedia.org/wiki/Finite-state_mach
 If you want to write TCP program to connect to server with retry timer, or other timers, FSM, you can use this template.
 
 ├── constants.py
+
 ├── factory.py
+
 ├── fsm.py
+
 ├── main.py
+
 ├── protocol.py
+
 ├── README.md
+
 ├── requirements.txt
+
 └── timer.py
 
 `main.py` is where the program start.
